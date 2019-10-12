@@ -17,4 +17,10 @@
     <EmbeddedResource Include="wwwroot\css\bulma.min.css" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Views\Movies\Index.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
 </Project>

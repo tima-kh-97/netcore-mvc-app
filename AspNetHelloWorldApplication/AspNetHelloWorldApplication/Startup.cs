@@ -46,9 +46,14 @@ namespace AspNetHelloWorldApplication
                     defaults: new {controller="Messages", action="ShowMessage"}
                 );*/
 
-                routes.MapRoute(
+                /*routes.MapRoute(
                     name: "default",
                     template: "{controller=Hello}/{action=Index}/{id?}"
+                    );*/
+
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Movies}/{action=Index}/{id?}"
                     );
             });
 
